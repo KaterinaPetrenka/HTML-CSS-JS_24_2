@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+table {
+border-collapse: collapse;
+}
+td {
+    width: 100px;
+    height: 60px;
+    border: 1px, solid, black;
+    text-align: center;
+}
+.newTable {
+    background-color: antiquewhite;
+    height: 20px;
+    width: 100px;
+    border-collapse: collapse;
+    border: 2px solid red;
+    text-align: center;
+}

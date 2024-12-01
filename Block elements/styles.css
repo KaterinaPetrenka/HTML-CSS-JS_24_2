@@ -1,0 +1,58 @@
+/* обнуление всех параметров браузера */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+div {
+    background-color: blue;
+    width: 500px;
+    height:200px;
+}
+
+span {
+    background-color: red;
+    height: 200px;
+}
+
+img {
+    width:200px;
+    height: 200px;
+}
+
+.green {
+    background-color: green;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.block {
+    width: 500px;
+    height: 500px;
+    background: grey;
+}
+
+.box {
+    width: 200px;
+    background: red
+}
+
+.box2 {
+    width: 50%;
+    height: 100px;
+    background: lightgreen;
+}
+
+.boxBox {
+    height: 300px;
+    width: 300px;
+    background-color: red;
+    padding: 15px 25px;
+    box-sizing: border-box; 
+    /* не позволявет элементу расти за пределы указанной величины элемента */
+    margin: 20px;
+}

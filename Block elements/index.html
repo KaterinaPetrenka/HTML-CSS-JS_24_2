@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Block elements</title>
+    <link rel="icon" href="/Block elements/img/KP_logo.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- /* блочный элемент - по умолчанию занимает 100% ширины экрана браузера
+        всегда начинается с новой строки
+        не даст встать на его строчку другому элементу, даже если там есть место *\ -->
+    <div>Lorem ipsum dolor sit amet.</div>
+    
+    <!-- строчный элемент - по умолчанию занимает свой контент по ширине
+    вообще не принимает размеры (только размеры строки)
+    становятся в ряд друг за другом в одной строке по ширине экраша -->
+    <span>Lorem ipsum dolor sit amet.</span>
+
+    <img src="/Block elements/img/KP_logo.png" alt="#">
+    
+    <!-- свойство стилей которое регулирует это поведение -> display:
+     - inline - строчный элемент
+     - block - блочный элемент
+     - inline-block - блочно-строчный -> им можно делать блоки в ряд друг за другом -->
+
+     <div class="green">Lorem ipsum dolor sit amet.</div>
+     <div class="blue">Lorem ipsum dolor sit amet.</div>
+
+     <div class="block">
+        <div class="box">
+            <div class="box2"></div>
+        </div>
+     </div>
+
+     <div class="boxBox">Lorem ipsum dolor sit amet.</div>
+</body>
+</html>
