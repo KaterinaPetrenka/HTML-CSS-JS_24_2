@@ -2,38 +2,124 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    flex-wrap: wrap;
+}
+    
+.box {
+    height: 100px;
+    width: 100px;
+    border: 1px solid brown;
+    display: inline-flexbox;
 }
 
 .flexbox {
     display: flex;
-    /* flex-wrap: wrap-reverse; */
-    /* flex-flow: row wrap;  комбинация*/
     flex-direction: row;
-    /* justify-content: space-between; */
-    justify-content:
-    /* height: 100hv; */
+    flex-wrap: wrap;
+    border-collapse: collapse;
+}
+
+.boxA {
     align-items: center;
-    gap: 20px; 
+    justify-content: space-between;
+    background-color: blanchedalmond;
 }
 
-.box {
-    width: 200px;
-    height: 200px;
-}
-
-.box1 {
+.boxA1 {
+    height: 20px;
+    width: 20px;
     background-color: red;
-    order: 3;
-    align-self: flex-start;
 }
 
-.box2{
+.boxA2{
+    height: 20px;
+    width: 20px;
     background-color: blue;
-    align-self: center;
 }
 
-.box3 {
+.boxA3 {
+    height: 20px;
+    width: 20px;
     background-color: green;
-    align-self: flex-end;
 }
+
+.boxB {
+    display: flex;
+    justify-content: flex-end;
+    justify-content: flex-end;
+    background-color: lightgray
+}
+
+.boxB1 {
+    height: 20px;
+    width: 20px;
+    background-color:blueviolet;
+}
+
+.boxC {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    background-color: darkseagreen;
+
+}
+ .boxC1{
+    background-color: lightseagreen;
+    height: 20px;
+    width: 20px;
+ }
+
+ .boxC2 {
+    background-color: lightseagreen;
+    height: 20px;
+    width: 20px;
+ }
+
+ .boxD {
+    justify-content: space-around;
+    background-color: bisque;
+ }
+
+ .boxD1 {
+    height: 20px;
+    width: 20px;
+    background-color:blueviolet;
+ }
+
+ .boxD2 {
+    height: 20px;
+    width: 20px;
+    background-color:#b875f7;
+ }
+
+ .boxD3 {
+    height: 20px;
+    width: 20px;
+    background-color:rgb(186, 161, 210);
+ }
+
+ .boxE {
+    align-items: flex-end;
+    background-color: rgb(243, 230, 214);
+    gap: 5px;
+ }
+
+ .boxE1 {
+    height: 20px;
+    width: 20px;
+    background-color:rgb(119, 31, 201);
+ }
+
+ .boxE2 {
+    height: 20px;
+    width: 20px;
+    background-color:rgb(41, 233, 162);
+ }
+
+ .boxE3 {
+    height: 20px;
+    width: 20px;
+    background-color:rgb(189, 255, 21);
+ }
+
+
+
